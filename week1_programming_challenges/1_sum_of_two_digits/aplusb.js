@@ -1,2 +1,3 @@
-let a=process.argv[2];
-console.log(parseInt(a.substr(0,1))+parseInt(a.substr(1,1)));
+let a=process.argv[3];
+let b=process.argv[4];
+console.log(parseInt(a)+parseInt(b));
